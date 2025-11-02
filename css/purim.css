@@ -1,0 +1,61 @@
+body{
+    
+    display: flex;
+}
+
+#Guards{
+    position: absolute;
+    top: 521px;
+    right: 985px;
+    width: 7%;
+    height: 16%;
+    opacity: 0%;
+}
+    
+#Mordechy{
+    position: absolute;
+    top: 520px;
+    right: 452px;
+    width: 3%;
+    height: 17%;
+    opacity: 0%;
+}
+
+
+@keyframes  sizeOfPoint{
+    25%{width: 22px;height: 22px;}
+    50%{width: 23px;height: 23px;}
+    75%{width: 24px;height: 24px;}
+    100%{width: 23px;height: 23px;} 
+}
+
+.point{
+    border-radius: 50%;
+    background-color: red;
+    width: 21px;
+    height: 21px;
+    animation-iteration-count: infinite;
+    animation-name: sizeOfPoint;
+    animation-duration: 2s;
+    animation-direction: reverse;
+}
+.divPoint1{
+    top: 259px;
+    right: 354px;
+}
+.divPoint2{
+    top: 319px;
+    right: 436px;
+}
+.divPoint3{
+    top: 512px;
+    right: 245px;
+}
+.divPoint4{
+    top: 433px;
+    right: 811px;
+}
+.divPoint5{
+    top: 170px;
+    right: 527px;
+}

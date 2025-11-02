@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    animation: colorForBackGround;
+}
+
+header {
+    background-color: #333;
+    padding: 20px 0;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo img {
+    width: 200px;
+}
+
+.main {
+    padding: 20px;
+}
+
+.games {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 5%;
+}
+
+.game {
+    width: 30%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.game a {
+    text-decoration: none;
+    color: #333;
+}
+
+.game img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+.game h2 {
+    text-align: center;
+    margin: 10px 0;
+    background-color: #eee;
+    padding: 10px 0;
+    border-radius: 0 0 10px 10px;
+}
+body{
+    background: linear-gradient(270deg, #0dd7be, #009885, #ff0085, #a11960, #098dbf, #80dcff, #d572b3);
+    background-size: 1400% 1400%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}

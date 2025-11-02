@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>זמן מגילת אסתר - פורים</title>
+    <link href="../css/escape.css" rel="stylesheet">
+    <link href="../css/purim.css" rel="stylesheet">
+    <script src="../js/escape.js" defer></script>
+    <script src="../js/purim.js" defer></script>
+    <script src = "../js/loginAndRegister.js" defer></script>
+
+</head>
+    <body dir="rtl" onload="OnLoad()" onclick="RemovePaper()">
+        <aside>
+            <img src="../photos/logo.png" class="logo">
+            
+            <h1>מגילת אסתר:</h1>
+            <h4 id="hello">שלום</h4>
+            <h4>עד כה צברת:</h4>
+            <h6 id="coins">0 נקודות.</h6>
+            <div class="things">
+                <img src="../photos/key.png" id="key">
+                <div class="wheel">
+                    <div class="top">
+                        <img src="../photos/wheel-1.png" id="wheel-1">
+                        <img src="../photos/wheel-2.png" id="wheel-2">
+                    </div>
+                    <div class="butt">
+                        <img src="../photos/wheel-3.png" id="wheel-3">
+                        <img src="../photos/wheel-4.png" id="wheel-4">
+                    </div> 
+                </div>
+            </div>
+            <button onclick="LogOut()" class="logout">ליציאה</button>
+        </aside>
+        <main>
+            <img src="../photos/purim-1.jpg" class="background">
+            <div id="asking"></div>
+            <button class="level3" id="Guards" onclick="Ask()"></button>
+            <button class="level3" id="Mordechy" onclick="Ask()"></button>
+        </main>
+            <div id="scroll">
+                <img src="../photos/paper.png" class="intro">
+                <div class="text">
+                    <h4>הגעת לגלות פרס.</h4>
+                    <h4>כדי לצאת מתקופה זו<br> עליך לפתור את החידות<br> ולמצוא את המפתח ליציאה!</h4>
+                    <h4>האם הנך יודע<br>מי נתלה על עץ חוץ מהמן?</h4>
+                </div>
+            </div>    
+    </body>
+</html>

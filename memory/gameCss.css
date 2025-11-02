@@ -1,0 +1,117 @@
+.title{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: coral;
+}
+a{text-decoration: none;}
+.typeOfLevels{
+    margin-right:35%;
+}
+.hidding{
+    display: none;
+}
+.returnHome{
+    display: none;
+}
+.returnToHome{
+    margin-right: 47%;
+    font-family:'system-ui';
+    text-align: center;
+    color: white;
+    display: block;
+    width: 90px;
+    height: 50px;
+    background-color:rgb(242, 79, 136)
+}
+.cards{
+    max-height:200px;
+    max-width:1000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1%;
+    margin-right: 14%;
+}
+.easy, .soso, .hard{
+    min-height:70%;
+    min-width: 15%;
+    margin:0.5%;
+    color: white;
+    background-color: rgb(243, 147, 130);
+}
+.styleCard{
+    background-image:url("./mickeyImages/o.jpeg");
+    width: 200px;
+    height: 150px;
+    margin: 1%;
+}
+.styleSaccsed{
+  background-image: url("./mickeyImages/e.jpg");
+  width: 200px;
+  height: 150px;
+  margin: 1%;
+}
+.imag1{
+    background-image:url("./mickeyImages/0004829_-mickey-mouse-canvas_480.jpeg");
+    width: 200px;
+    height: 150px;
+    margin: 1%;
+}
+.imag2{
+    background-image: url("./mickeyImages/9d17c3a1-75be-440f-bcdc-dd71b2cb6677.jpg");
+    width: 200px;
+    height: 150px;
+    margin: 1%;
+}
+.imag3{
+    background-image: url("./mickeyImages/809.jpg");
+    width: 200px;
+    height: 150px;
+    margin: 1%;
+}
+.imag4{
+    background-image: url("./mickeyImages/9cc8b258-bf57-49de-9d25-cec6b2d08536.jpg");
+    width: 200px;
+    height: 150px;
+    margin: 1%;
+}
+.imag5{
+    background-image: url("./mickeyImages/picture_829.jpg");
+    width: 200px;
+    height: 150px;
+    margin: 1%;
+}.imag6{
+    background-image: url("./mickeyImages/FTDxl-1931.jpg");
+    width: 200px;
+    height: 150px;
+    margin: 1%;
+    
+}.imag7{
+    background-image: url("./mickeyImages/maxresdefault.jpg");
+    width: 200px;
+    height: 150px;
+    margin: 1%;
+}
+.imag8{
+    background-image: url("./mickeyImages/MinnieMouse.png");
+    width: 200px;
+    height: 150px;
+    margin: 1%;
+}
+.menuo{
+    color:rgba(255, 255, 255, 0.678);
+    margin-left: 40%;
+    font-size: x-large;
+    margin-top: 10%;
+    font-family:'system-ui';
+}
+h2{
+    margin-top: 18%;
+    background-color: rgb(241, 144, 204);
+    margin-right: 60%;
+    text-align: center;
+    border-radius: 5%;
+}
+a{
+    color: white;
+}

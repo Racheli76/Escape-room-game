@@ -1,0 +1,35 @@
+body{
+    
+    display: flex;
+}
+#text{
+    right: 185%;
+}
+#Sheep{
+    position: absolute;
+    top: 515px;
+    right: 483px;
+    width: 10%;
+    height: 10%;
+    opacity: 0%;
+}
+#Gate{
+    position: absolute;
+    top: 294px;
+    right: 788px;
+    width: 5%;
+    height: 7%;
+    opacity: 0%;
+}
+
+/*300px*/
+.buttQuis{
+    width: 15000%;
+    background-color: #ff9400;
+    margin: 2%;
+}
+.buttQuis:hover{
+    background-color: #FFF6E4;
+    color: #ff9400;
+    border: #ff9400 1px solid;
+}

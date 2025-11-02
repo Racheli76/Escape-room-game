@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link href="../css/login.css" rel="stylesheet">
+    <link href="../css/escape.css" rel="stylesheet">
+    <script src="../js/loginAndRegister.js" defer></script>
+</head>
+<body dir="rtl">
+    <img src="../photos/logo.png" class="logoLogin">
+    <h1>ברוכים הבאים לחדר הבריחה "זכור ימות עולם"  </h1>
+    <h4>רישום למשחק:</h4>
+    <form>
+        <input class="input" type="text" id="userName" placeholder="שם משתמש:" maxlength="14" minlength="2" required="required"> 
+                
+        <input class="input" type="email" id="email" placeholder="כתובת מייל:" required="required">
+
+        <input class="input" type="number" max="120" min="6" id="age" placeholder="גיל:" required="required" >
+
+        
+    </form>
+    <input type="submit" class="send" onclick="Register()" value="הרשם אלינו!>>>">
+</body>
+</html>

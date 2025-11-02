@@ -1,0 +1,52 @@
+body{
+    
+    display: flex;
+}
+.flower{
+    size: 20%;
+    margin-bottom: 0%;
+}
+
+#Hiroglifs{
+    position: absolute;
+    top: 335px;
+    right: 967px;
+    width: 4%;
+    height: 6%;
+    opacity: 0%;
+}
+    
+#Stone{
+    position: absolute;
+    top: 464px;
+    right: 363px;
+    width: 6%;
+    height: 5%;
+    opacity: 0%;
+}
+#Drudgery{
+    position: absolute;
+    top: 477px;
+    right: 1244px;
+    width: 3%;
+    height: 5%;
+    opacity: 0%;
+}
+
+.ans1{
+    right: 294px;
+    top: 383px;
+}
+.ans2{
+    right: 457px;
+    top: 390px;
+}
+.ans4{
+    right: 786px;
+    top: 386px;
+}
+.ans3{
+    right: 621px;
+    top: 388px; ;
+}
+

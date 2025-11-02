@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="../css/login.css" rel="stylesheet">
+    <link href="../css/escape.css" rel="stylesheet">
+    <script src="../js/loginAndRegister.js" defer></script>
+</head>
+<body dir="rtl">
+    <img src="../photos/logo.png" class="logoLogin">
+    <h1>ברוכים הבאים לחדר הבריחה "זכור ימות עולם"  </h1>
+    <button class="goToReginster" onclick="GoToRegister()">לא קבלת מכונת זמן? הרשם אלינו!>>></button>
+    <h4>התחברות למשחק:</h4>
+    <form >
+        <input class="input" type="text" id="userName" placeholder="שם משתמש:" maxlength="14" minlength="2" required="required"> 
+            
+        <input class="input" type="email" id="email" placeholder="כתובת מייל:" required="required">
+        
+        <div class="verifying">
+            <input class="input" type="checkbox" id="verifying" onclick="Verifying()" required="required">
+            <label for="verifying">אני לא רובוט!</label>
+            <div id="hide_verifying">
+                <span>
+                    <h6 id="command_for_verifying"></h6>
+                    <div class="colors_for_verifying">
+                        <div class="red" onclick="Verify_color()"></div>
+                        <div class="yellow" onclick="Verify_color()"></div>
+                        <div class="green" onclick="Verify_color()"></div>
+                        <div class="blue" onclick="Verify_color()"></div>
+                        <div class="pink" onclick="Verify_color()"></div>
+                    </div>
+                </span>
+            </div>
+        </div>
+
+      
+    </form>
+
+    <input type="submit" class="send" onclick="Login()" value="הכנס אלינו!>>>">
+</body>
+</html>
