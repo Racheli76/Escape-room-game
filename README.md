@@ -1,117 +1,77 @@
-# 🧩 Escape Room Game
+# 🧩 Escape Room — Time Machine Adventure
 
-Welcome to the **Escape Room Game** — an interactive browser-based adventure filled with puzzles, clues, and mysterious challenges 🎯  
-This project brings the thrill of an escape room directly to your browser using pure **HTML**, **CSS**, and **JavaScript**.
+A front-end escape room game built with **HTML**, **CSS**, and **Vanilla JavaScript**.
 
----
+You travel in a time machine when a malfunction causes the steering mechanism to break into pieces and scatter across different historical eras.  
+In every stage, solve puzzles, uncover clues, find a key, and collect a steering piece to continue the journey back home.
 
-## 🌟 Features
-
-- 🧠 **Challenging puzzles** with multiple difficulty levels
-- 🕹️ **Dynamic gameplay** that responds to player actions
-- 🎨 **Beautiful, immersive UI design**
-- 🔊 **Multimedia integration** — sound effects, images, and videos
-- 💡 **Easily customizable** — add new rooms, puzzles, or logic with minimal code
+Runs entirely in the browser — **no server, no backend, no frameworks**.
 
 ---
 
-## 🧰 Technologies Used
+## 🌟 Main Features
 
-| Technology | Purpose |
-|-------------|----------|
-| **HTML5** | Page structure and layout |
-| **CSS3** | Styling, animations, and responsive design |
-| **JavaScript (Vanilla)** | Game logic, puzzles, and interactivity |
-
----
-
-## 🚀 How to Run Locally
-
-1. **Clone the repository**
-```bash
-git clone https://github.com/Racheli76/Escape-room-game.git
-cd Escape-room-game
-```
-
-2. **Open the main page**
-
-- Double-click `index.html` to open it in your browser  
-**or**
-- Run a simple local server:
-```bash
-python -m http.server 8000
-```
-Then visit 👉 [http://localhost:8000](http://localhost:8000)
+- Logic-based puzzles and hidden clues
+- Themed levels inspired by historical periods
+- Fully interactive DOM-based gameplay
+- Sounds, images, and small animations
+- **Local Storage** support for saving score and progress
+- Easy to extend with more puzzles and time periods
 
 ---
 
-## 🗂️ Project Structure
+## 🛠️ Technologies
 
-```
+| Tech | Description |
+|------|-------------|
+| **HTML5** | Game screens and structure |
+| **CSS3** | Layout, UI design, transitions, effects |
+| **JavaScript (Vanilla)** | Game logic, events, puzzle mechanisms |
+| **Local Storage** | Saving score and progress |
+
+---
+
+## 🚀 How to Run
+
+Open `index.html` in any modern browser.  
+> No installation needed. No server required.
+
+---
+
+## 📁 Project Structure
+
 Escape-room-game/
 │
-├── html/        # HTML pages (game screens, puzzles, etc.)
-├── css/         # Styling and layout files
-├── js/          # Core game logic and interactions
-├── fonts/       # Custom fonts
-├── photos/      # Game visuals and assets
-├── saund/       # Audio files (suggested rename: sound/)
-├── videos/      # Short clips and cinematic intros
-└── README.md    # This documentation
-```
+├── html/ # Game pages / levels
+├── css/ # Styling & animations
+├── js/ # Game logic & interaction
+├── photos/ # Images & visual assets
+├── sound/ # Audio assets
+├── videos/ # Short clips / transitions
+└── README.md
+
 
 ---
 
-## 💾 Handling Large Media Files
+## 📱 Notes
 
-If your project includes large audio or video files (over **100 MB**), GitHub will reject them by default.  
-You have two good options:
-
-### Option 1 — Use Git LFS (Large File Storage)
-```bash
-git lfs install
-git lfs track "*.mp4"
-git add .gitattributes
-git add .
-git commit -m "Track video files with Git LFS"
-git push -u origin main
-```
-> **Note:** Git LFS provides about **10 GB of free storage and bandwidth per month**.  
-> Extra usage incurs a small fee per GB.
-
-### Option 2 — External Media Hosting
-
-Upload large files to **Google Drive**, **Dropbox**, or **Amazon S3**,  
-and include links in your project instead of storing the files directly in Git.
+Designed for standard desktop screens.  
+On very unusual screen sizes, minor CSS tweaks may be needed for best fit.
 
 ---
 
-## 💡 Ideas for Future Improvements
+## ✨ Possible Enhancements
 
-- ⏱️ Add a timer and scoring system
-- 🔐 Support multiple difficulty levels
-- 🌍 Add multilingual support (English, Hebrew, etc.)
-- 📱 Full mobile responsiveness
-- 💾 Save player progress using local storage
+- Additional time-period stages
+- Multilingual support
+- Advanced responsive layout for all screen types
 
 ---
 
-## 📸 Demo / Screenshots
+## 👨‍💻 Developers
 
-> *(Add a screenshot or short demo video here once ready)*  
-> Example:  
-> ![Game Preview](photos/demo.png)
+**Racheli Cohen**  
+https://github.com/Racheli76
 
----
-
-## 👩‍💻 Developers
-
-**Racheli Cohen** 
-📫 [GitHub Profile](https://github.com/Racheli76)
-
-**Shulamit Halbershtadt**
-📫 [GitHub Profile](https://github.com/Shu6136713)
-
----
-
-🎮 *“The key to escape is not just in the code — it's in your mind.”*
+**Shulamit Halbershtadt**  
+https://github.com/Shu6136713
